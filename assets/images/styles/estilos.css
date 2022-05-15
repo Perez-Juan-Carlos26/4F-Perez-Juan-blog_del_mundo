@@ -98,7 +98,7 @@ footer{
     
 }
 
-@media(min-width 1024.1px){
+@media(min-width: 1024.1px){
 aside{
     
     background-color: yellow;
