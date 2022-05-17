@@ -9,6 +9,8 @@ section>header {
     grid-column: span 12;
 }
 
+
+
 /* selecciona el ul*/
 
 
@@ -77,7 +79,7 @@ li{
     color: black;
 }
 
-h1{
+body>section>header{
     color: aqua;
     text-align: center;
 }
@@ -98,7 +100,7 @@ footer{
     color: white;
 }
 
-.header{
+header{
     grid-column: span ;
     background-color: gold;
     color: black;
@@ -126,7 +128,7 @@ aside{
 }
 
 @media(min-width: 1024.1px){
-.main{
+main{
     grid-column: span 4;
     background-color: lime;
     color: black;
@@ -169,7 +171,7 @@ main{
 .foter_blog{
     background-color: aqua;
     color: white;
-    border: 2rem;
+    margin: 2rem;
     grid-column: span 12;
     align-items: center;
 
@@ -177,10 +179,15 @@ main{
 
     padding-right: 4rem;
     padding-left: 0;
+font-size:1.3rem;
+display:flex;
 
-    font-size: 0.9rem;
+
+
     
 }
+
+
 
 footer{
     grid-column: 12;
@@ -207,7 +214,7 @@ aside div {
 }
 
 aside{
-    grid-column: 4;
+    grid-column: span 4;
 }
 
 /* si la pantalla mide mínimo 1024.1 px y máximo 1324.1 entonces... */
