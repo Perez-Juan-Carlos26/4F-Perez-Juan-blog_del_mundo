@@ -210,11 +210,11 @@ display:flex;
 }
 
 
-@media(min-width 1024.1px){
+
 footer{
     grid-column: 12;
 }
-}
+
 
 
 
